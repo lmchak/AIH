@@ -1,0 +1,64 @@
+openapi: 3.1.0
+
+info:
+  version: 1.0.0
+  title: Land Use Information API
+  description: 'API to retrieve land use information such as Gross Plot Ratio, Land Use, Land Use Type, Land Parcel, Land Planning, Region based on address in Singapore.'
+
+servers:
+  - url: http://127.0.0.1:5000
+    description: Land Use Information API Server
+
+paths:
+  /get_land_use:
+    post:
+      tags:
+        - land_use
+      description: Retrieve land use information based on address
+      operationId: getLandUse
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                address:
+                  type: string
+              required:
+                - address
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LandUseResponse'
+        '500':
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    LandUseResponse:
+      type: object
+      properties:
+        features:
+          type: array
+          items:
+            type: object
+            properties:
+              attributes:
+                type: object
+                # Add your specific land use attributes here
+              geometry:
+                type: object
+                # Add your specific land use geometry here
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string

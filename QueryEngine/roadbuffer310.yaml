@@ -1,0 +1,60 @@
+openapi: 3.1.0
+
+info:
+  version: 1.0.0
+  title: Road Buffer Information API
+  description: 'API to retrieve road category and buffer information based on road name in Singapore.'
+
+servers:
+  - url: http://127.0.0.1:5000
+    description: Road Buffer Information API Server
+
+paths:
+  /get_road_buffer:
+    post:
+      tags:
+        - road_buffer
+      description: Retrieve road category and buffer information based on road name
+      operationId: getRoadBuffer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                road_name:
+                  type: string
+              required:
+                - road_name
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RoadBufferResponse'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    RoadBufferResponse:
+      type: object
+      properties:
+        road_cat:
+          type: string
+        road_name:
+          type: string
+        buffers:
+          type: object
+          # Define the properties for the buffers here
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
