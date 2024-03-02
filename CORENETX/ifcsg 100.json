@@ -1,0 +1,1072 @@
+[
+    {
+        "id": 3,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Area Landscape",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AREA_LANDSCAPE",
+        "Description": "A visible features of an area of land, including physical elements like hills, rivers, and lakes, as well as human elements like buildings and structures.",
+        "key": "IfcSpace.USERDEFINED.AREA_LANDSCAPE",
+        "psets": {
+            "SGPset_SpaceArea_Landscape": [
+                {
+                    "id": 6,
+                    "propertyName": "ALS_GreeneryFeatures",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ALS_GreeneryFeatures:Label"
+                },
+                {
+                    "id": 13,
+                    "propertyName": "ALS_LandscapeType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ALS_LandscapeType:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Area GFA",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AREA_GFA",
+        "Description": "AREA GFA refers to the Gross Floor Area of a space, which is the total floor area within the inside perimeter of the exterior walls, including all vertical penetrations that extend through multiple floors. It is a standard metric used in the measurement of real estate, particularly in commercial properties.",
+        "key": "IfcSpace.USERDEFINED.AREA_GFA",
+        "psets": {
+            "SGPset_SpaceArea_GFA": [
+                {
+                    "id": 2,
+                    "propertyName": "AGF_RecyclablesChuteID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_RecyclablesChuteID:Label"
+                },
+                {
+                    "id": 3,
+                    "propertyName": "AGF_DevelopmentUse",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_DevelopmentUse:Label"
+                },
+                {
+                    "id": 4,
+                    "propertyName": "AGF_Note",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_Note:Label"
+                },
+                {
+                    "id": 7,
+                    "propertyName": "AGF_Name",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_Name:Label"
+                },
+                {
+                    "id": 8,
+                    "propertyName": "AGF_UnitNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_UnitNumber:Label"
+                },
+                {
+                    "id": 10,
+                    "propertyName": "AGF_PublicToiletID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_PublicToiletID:Label"
+                },
+                {
+                    "id": 11,
+                    "propertyName": "AGF_DetailedUse",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_DetailedUse:Label"
+                },
+                {
+                    "id": 14,
+                    "propertyName": "AGF_RefuseChuteID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_RefuseChuteID:Label"
+                },
+                {
+                    "id": 20,
+                    "propertyName": "AGF_BonusGFAType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_BonusGFAType:Label"
+                },
+                {
+                    "id": 24,
+                    "propertyName": "AGF_AreaID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_AreaID:Label"
+                },
+                {
+                    "id": 29,
+                    "propertyName": "AGF_UseQuantum",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_UseQuantum:Label"
+                },
+                {
+                    "id": 31,
+                    "propertyName": "AGF_FacilityType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AGF_FacilityType:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Area Connectivity",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AREA_CONNECTIVITY",
+        "Description": "Area connectivity refers to the level of accessibility and connectivity within a particular geographic location. It involves the availability and quality of transportation systems, as well as telecommunications networks, and other infrastructure that facilitates communication and mobility in the area.",
+        "key": "IfcSpace.USERDEFINED.AREA_CONNECTIVITY",
+        "psets": {
+            "SGPset_SpaceArea_Connectivity": [
+                {
+                    "id": 15,
+                    "propertyName": "ACN_CloseTime",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ACN_CloseTime:Label"
+                },
+                {
+                    "id": 16,
+                    "propertyName": "ACN_IsPavingSpecified",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "ACN_IsPavingSpecified:Boolean"
+                },
+                {
+                    "id": 18,
+                    "propertyName": "ACN_OpenTime",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ACN_OpenTime:Label"
+                },
+                {
+                    "id": 23,
+                    "propertyName": "ACN_ActivityGeneratingUseType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ACN_ActivityGeneratingUseType:Label"
+                },
+                {
+                    "id": 26,
+                    "propertyName": "ACN_IsOpen24HoursToPublic",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "ACN_IsOpen24HoursToPublic:Boolean"
+                },
+                {
+                    "id": 28,
+                    "propertyName": "ACN_PavingSpecification",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ACN_PavingSpecification:Label"
+                },
+                {
+                    "id": 30,
+                    "propertyName": "ACN_ConnectivityType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ACN_ConnectivityType:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Area Verification",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AREA_VERIFICATION",
+        "Description": "Area verification refers to a process or set of procedures aimed at assessing or confirming the validity of a particular space. This can involve a variety of measures such as inspection, testing, and analysis, all aimed at ensuring that the space in question meets the required standards for its intended use.",
+        "key": "IfcSpace.USERDEFINED.AREA_VERIFICATION",
+        "psets": {
+            "SGPset_SpaceArea_Verification": [
+                {
+                    "id": 9,
+                    "propertyName": "AVF_Name",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_Name:Label"
+                },
+                {
+                    "id": 17,
+                    "propertyName": "AVF_BonusGFAType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_BonusGFAType:Label"
+                },
+                {
+                    "id": 21,
+                    "propertyName": "AVF_AreaType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_AreaType:Label"
+                },
+                {
+                    "id": 22,
+                    "propertyName": "AVF_DetailedUse",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_DetailedUse:Label"
+                },
+                {
+                    "id": 25,
+                    "propertyName": "AVF_UseQuantum",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_UseQuantum:Label"
+                },
+                {
+                    "id": 27,
+                    "propertyName": "AVF_DevelopmentUse",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AVF_DevelopmentUse:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Area Strata",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AREA_STRATA",
+        "Description": "AREA STRATA refers to the specific physical area or space within a property or building that is being measured. This term is often used when determining the value or size of a property based on its legal definition as a distinct area within the property.",
+        "key": "IfcSpace.USERDEFINED.AREA_STRATA",
+        "psets": {
+            "SGPset_SpaceArea_Strata": [
+                {
+                    "id": 1,
+                    "propertyName": "AST_LegalArea",
+                    "dataType": "integer",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcInteger",
+                    "description": "",
+                    "key": "AST_LegalArea:Integer"
+                },
+                {
+                    "id": 5,
+                    "propertyName": "AST_Extg_StrataLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AST_Extg_StrataLotNumber:Label"
+                },
+                {
+                    "id": 12,
+                    "propertyName": "AST_Prop_StrataLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AST_Prop_StrataLotNumber:Label"
+                },
+                {
+                    "id": 19,
+                    "propertyName": "AST_Associated to",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AST_Associated to:Label"
+                },
+                {
+                    "id": 32,
+                    "propertyName": "AST_AreaType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AST_AreaType:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 107,
+        "IfcEntity": "IfcCivilElement",
+        "NaturalLanguage": "Layby",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "LAYBY",
+        "Description": "A layby is a designated area alongside a road or highway where vehicles can temporarily park or stop to allow for rest, loading/unloading, or emergency purpose",
+        "key": "IfcCivilElement.USERDEFINED.LAYBY",
+        "psets": null
+    },
+    {
+        "id": 6,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Strata Lot",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "STRATALOT",
+        "Description": "Strata refers to multiple layers or levels, while lot can refer to a piece of land or property. The combination of these words suggests a multi-layered space or property.",
+        "key": "IfcSpace.USERDEFINED.STRATALOT",
+        "psets": {
+            "SGPset_AccessoryLot": [
+                {
+                    "id": 33,
+                    "propertyName": "TypicalFloor",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "TypicalFloor:Boolean"
+                },
+                {
+                    "id": 34,
+                    "propertyName": "LotStatus",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LotStatus:Label"
+                },
+                {
+                    "id": 35,
+                    "propertyName": "HouseNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "HouseNumber:Label"
+                },
+                {
+                    "id": 36,
+                    "propertyName": "VoidArea",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "VoidArea:Label"
+                },
+                {
+                    "id": 38,
+                    "propertyName": "PlanNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PlanNumber:Label"
+                },
+                {
+                    "id": 39,
+                    "propertyName": "SVYFileNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "SVYFileNumber:Label"
+                },
+                {
+                    "id": 40,
+                    "propertyName": "BuildingName_Source",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "BuildingName_Source:Label"
+                },
+                {
+                    "id": 41,
+                    "propertyName": "UnitNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "UnitNumber:Label"
+                },
+                {
+                    "id": 42,
+                    "propertyName": "PostalCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PostalCode:Label"
+                },
+                {
+                    "id": 43,
+                    "propertyName": "StreetName_StreetCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StreetName_StreetCode:Label"
+                },
+                {
+                    "id": 45,
+                    "propertyName": "IsVoid",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "IsVoid:Boolean"
+                },
+                {
+                    "id": 46,
+                    "propertyName": "ParcelType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ParcelType:Label"
+                },
+                {
+                    "id": 47,
+                    "propertyName": "LevelNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LevelNumber:Label"
+                },
+                {
+                    "id": 49,
+                    "propertyName": "OldFormatLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "OldFormatLotNumber:Label"
+                },
+                {
+                    "id": 50,
+                    "propertyName": "AreaDescription",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AreaDescription:Label"
+                }
+            ],
+            "SGPset_StrataLot": [
+                {
+                    "id": 37,
+                    "propertyName": "StrataLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StrataLotNumber:Label"
+                },
+                {
+                    "id": 44,
+                    "propertyName": "StrataLotArea",
+                    "dataType": null,
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StrataLotArea:Area"
+                },
+                {
+                    "id": 48,
+                    "propertyName": "ResidingOnLandLot",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ResidingOnLandLot:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Subterranean Lot",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "SUBTERRANEANLOT",
+        "Description": "A subterranean lot refers to a parking area located under a building or structure underground that is designed to accommodate vehicles. This type of parking is often used in densely populated urban areas where there is limited parking space available.",
+        "key": "IfcSpace.USERDEFINED.SUBTERRANEANLOT",
+        "psets": {
+            "SGPset_AccessoryLot": [
+                {
+                    "id": 34,
+                    "propertyName": "LotStatus",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LotStatus:Label"
+                },
+                {
+                    "id": 35,
+                    "propertyName": "HouseNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "HouseNumber:Label"
+                },
+                {
+                    "id": 38,
+                    "propertyName": "PlanNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PlanNumber:Label"
+                },
+                {
+                    "id": 39,
+                    "propertyName": "SVYFileNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "SVYFileNumber:Label"
+                },
+                {
+                    "id": 40,
+                    "propertyName": "BuildingName_Source",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "BuildingName_Source:Label"
+                },
+                {
+                    "id": 41,
+                    "propertyName": "UnitNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "UnitNumber:Label"
+                },
+                {
+                    "id": 42,
+                    "propertyName": "PostalCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PostalCode:Label"
+                },
+                {
+                    "id": 43,
+                    "propertyName": "StreetName_StreetCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StreetName_StreetCode:Label"
+                },
+                {
+                    "id": 46,
+                    "propertyName": "ParcelType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ParcelType:Label"
+                },
+                {
+                    "id": 47,
+                    "propertyName": "LevelNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LevelNumber:Label"
+                },
+                {
+                    "id": 49,
+                    "propertyName": "OldFormatLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "OldFormatLotNumber:Label"
+                }
+            ],
+            "SGPset_Space": [
+                {
+                    "id": 51,
+                    "propertyName": "BalanceLotIndicator",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "BalanceLotIndicator:Boolean"
+                },
+                {
+                    "id": 55,
+                    "propertyName": "LandLotArea",
+                    "dataType": null,
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LandLotArea:Area"
+                },
+                {
+                    "id": 63,
+                    "propertyName": "LandLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LandLotNumber:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Void",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "VOID",
+        "Description": "VOID refers to an empty or unoccupied space without any matter or substance. It is a place that is completely void of any physical entity or phenomenon.",
+        "key": "IfcSpace.USERDEFINED.VOID",
+        "psets": {
+            "SGPset_AccessoryLot": [
+                {
+                    "id": 36,
+                    "propertyName": "VoidArea",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "VoidArea:Label"
+                },
+                {
+                    "id": 65,
+                    "propertyName": "AppurtenantTo",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AppurtenantTo:Label"
+                }
+            ],
+            "SGPset_Space": [
+                {
+                    "id": 67,
+                    "propertyName": "VoidID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "VoidID:Label"
+                },
+                {
+                    "id": 68,
+                    "propertyName": "GeocodeID",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "GeocodeID:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "IfcEntity": "IfcGeographicElement",
+        "NaturalLanguage": "2D Landlot",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "2D_LANDLOT",
+        "Description": "Representing a section or division of land in two-dimensional space. It typically includes information about boundaries, measurements, and ownership rights.",
+        "key": "IfcGeographicElement.USERDEFINED.2D_LANDLOT",
+        "psets": {
+            "SGPset_GeographicElement": [
+                {
+                    "id": 63,
+                    "propertyName": "LandLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LandLotNumber:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Accessory Lot",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "ACCESSORYLOT",
+        "Description": "The ACCESSORY LOT is a designated area, typically within a larger property, that is used for the storage and organization of equipment, tools, and supplies. It offers added space for streamlined operations and ensures that all necessary items are easily accessible when needed.",
+        "key": "IfcSpace.USERDEFINED.ACCESSORYLOT",
+        "psets": {
+            "SGPset_AccessoryLot": [
+                {
+                    "id": 33,
+                    "propertyName": "TypicalFloor",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "TypicalFloor:Boolean"
+                },
+                {
+                    "id": 34,
+                    "propertyName": "LotStatus",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LotStatus:Label"
+                },
+                {
+                    "id": 35,
+                    "propertyName": "HouseNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "HouseNumber:Label"
+                },
+                {
+                    "id": 36,
+                    "propertyName": "VoidArea",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "VoidArea:Label"
+                },
+                {
+                    "id": 38,
+                    "propertyName": "PlanNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PlanNumber:Label"
+                },
+                {
+                    "id": 39,
+                    "propertyName": "SVYFileNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "SVYFileNumber:Label"
+                },
+                {
+                    "id": 40,
+                    "propertyName": "BuildingName_Source",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "BuildingName_Source:Label"
+                },
+                {
+                    "id": 41,
+                    "propertyName": "UnitNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "UnitNumber:Label"
+                },
+                {
+                    "id": 42,
+                    "propertyName": "PostalCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PostalCode:Label"
+                },
+                {
+                    "id": 43,
+                    "propertyName": "StreetName_StreetCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StreetName_StreetCode:Label"
+                },
+                {
+                    "id": 45,
+                    "propertyName": "IsVoid",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "IsVoid:Boolean"
+                },
+                {
+                    "id": 46,
+                    "propertyName": "ParcelType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ParcelType:Label"
+                },
+                {
+                    "id": 47,
+                    "propertyName": "LevelNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LevelNumber:Label"
+                },
+                {
+                    "id": 49,
+                    "propertyName": "OldFormatLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "OldFormatLotNumber:Label"
+                },
+                {
+                    "id": 50,
+                    "propertyName": "AreaDescription",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AreaDescription:Label"
+                },
+                {
+                    "id": 65,
+                    "propertyName": "AppurtenantTo",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AppurtenantTo:Label"
+                },
+                {
+                    "id": 79,
+                    "propertyName": "AccessoryLotArea",
+                    "dataType": null,
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AccessoryLotArea:Area"
+                },
+                {
+                    "id": 86,
+                    "propertyName": "AccessoryLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "AccessoryLotNumber:Label"
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "IfcEntity": "IfcSpace",
+        "NaturalLanguage": "Air Space Lot",
+        "PredefinedType": "USERDEFINED",
+        "ObjectType": "AIRSPACELOT",
+        "Description": "An area designated for the landing or takeoff of aircraft in a particular airspace.",
+        "key": "IfcSpace.USERDEFINED.AIRSPACELOT",
+        "psets": {
+            "SGPset_AccessoryLot": [
+                {
+                    "id": 34,
+                    "propertyName": "LotStatus",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LotStatus:Label"
+                },
+                {
+                    "id": 35,
+                    "propertyName": "HouseNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "HouseNumber:Label"
+                },
+                {
+                    "id": 38,
+                    "propertyName": "PlanNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PlanNumber:Label"
+                },
+                {
+                    "id": 39,
+                    "propertyName": "SVYFileNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "SVYFileNumber:Label"
+                },
+                {
+                    "id": 40,
+                    "propertyName": "BuildingName_Source",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "BuildingName_Source:Label"
+                },
+                {
+                    "id": 41,
+                    "propertyName": "UnitNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "UnitNumber:Label"
+                },
+                {
+                    "id": 42,
+                    "propertyName": "PostalCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "PostalCode:Label"
+                },
+                {
+                    "id": 43,
+                    "propertyName": "StreetName_StreetCode",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "StreetName_StreetCode:Label"
+                },
+                {
+                    "id": 46,
+                    "propertyName": "ParcelType",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "ParcelType:Label"
+                },
+                {
+                    "id": 47,
+                    "propertyName": "LevelNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LevelNumber:Label"
+                },
+                {
+                    "id": 49,
+                    "propertyName": "OldFormatLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "OldFormatLotNumber:Label"
+                }
+            ],
+            "SGPset_Space": [
+                {
+                    "id": 51,
+                    "propertyName": "BalanceLotIndicator",
+                    "dataType": "boolean",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcBoolean",
+                    "description": "",
+                    "key": "BalanceLotIndicator:Boolean"
+                },
+                {
+                    "id": 55,
+                    "propertyName": "LandLotArea",
+                    "dataType": null,
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LandLotArea:Area"
+                },
+                {
+                    "id": 63,
+                    "propertyName": "LandLotNumber",
+                    "dataType": "varchar(255)",
+                    "enum": "",
+                    "IfcMeasureResource": "IfcLabel",
+                    "description": "",
+                    "key": "LandLotNumber:Label"
+                }
+            ]
+        }
+    }
+]
