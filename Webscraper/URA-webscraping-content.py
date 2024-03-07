@@ -95,15 +95,14 @@ driver.quit()
 # --------------------
 # CIRCULAR EXTRACTION
 # --------------------
+ura_circular_data = []
+ura_circular_df = pd.DataFrame(columns=['Title', 'Date', 'Link'])
+ura_circular_urls = []
 
 if ura_urls:
 
     driver = driver_init()
-
     driver.get(ura_urls[0]) 
-    ura_circular_data = []
-    ura_circular_df = pd.DataFrame(columns=['Title', 'Date', 'Link'])
-    ura_circular_urls = []
 
     def is_element_visible(element):
         return element.value_of_css_property("display") != "none"
